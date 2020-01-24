@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <link href="https://fonts.googleapis.com/css?family=Poppins|Yeon+Sung&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <link rel="stylesheet" href="Style.css">
+    <script src="https://unpkg.com/scrollreveal/dist/scrollreveal.js"></script>
+    <title>Tech Scroll</title>
+  </head>
+  <body>
+    <!-- Navbar -->
+    <nav class="navbar navbar-default navbar-fixed-top">
+        <div class="container">
+          <div class="navbar-header">
+            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbarMenu" aria-expanded="false">
+              <span class="sr-only">Toggle navigation</span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand" href="#">Tech Scroll</a>
+          </div>
+          <div class="collapse navbar-collapse" id="navbarMenu">
+            <ul class="nav navbar-nav navbar-right">
+              <li><a href="#showcase">Home</a></li>
+              <li><a href="#info1">About</a></li>
+              <li><a href="#contacts">Contacts</a></li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+
+      <!-- Showcase -->
+      <section id="showcase">
+        <div class="container">
+          <div class="row">
+            <div class="col-md-6 col-sm-6">
+              <div class="showcase-left">
+                <img src="Images/unnamed.png" alt="">
+              </div>
+            </div>
+            <div class="col-md-6 col-sm-6">
+              <div class="showcase-right">
+                <h1>Hands-free help from the Google Assistant</h1>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cupiditate rem sit explicabo quae fuga voluptatum temporibus dolorem recusandae harum, molestiae facere, ipsam exercitationem amet aspernatur, nemo deserunt illo voluptas tenetur.</p>
+              </div>
+              <br>
+              <a href="" class="btn btn-default btn-lg showcase-btn">Show More</a>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Description -->
+      <section id="description">
+        <div class="container">
+          <p>" Lorem ipsum dolor sit amet, consectetur adipisicing elit. Officia minus soluta eligendi obcaecati maiores rerum quo quod, repudiandae culpa, temporibus amet, quasi ut dolorum doloribus facere, molestias pariatur deleniti error? "</p>
+          <p class="customer">- John Doe</p>
+        </div>
+      </section>
+
+      <!-- Info1 -->
+      <section id="info1">
+        <div class="container">
+          <div class="row">
+            <div class="col-md-6 col-sm-6">
+              <div class="info-left">
+                <h1>Hands-free help from the Google Assistant</h1>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cupiditate rem sit explicabo quae fuga voluptatum temporibus dolorem recusandae harum, molestiae facere, ipsam exercitationem amet aspernatur, nemo deserunt illo voluptas tenetur.</p>
+                <br>
+                <a href="" class="btn btn-default btn-lg showcase-btn">Show More</a>
+              </div>
+            </div>
+            <div class="col-md-6 col-sm-6">
+              <div class="info-right">
+                  <img src="Images/screen-shot-2016-11-07-at-33948-pm-980x589.png" alt="">
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+
+      <!-- Info2 -->
+      <section id="info2">
+        <div class="container">
+          <div class="row">
+            <div class="col-md-6 col-sm-6">
+              <div class="info-left">
+                <h2>Info Block One</h2>
+                <p>Lorem ipsum. Cupiditate rem sit temporibus dolorem recusandae harum, molestiae facere, ipsam exercitationem amet aspernatur, nemo deserunt illo voluptas tenetur.</p>
+                <br>
+              </div>
+            </div>
+            <div class="col-md-6 col-sm-6">
+              <div class="info-right">
+                <h2>Info Block Two</h2>
+                <p>Lorem ipsum. Cupiditate rem sit temporibus dolorem recusandae harum, molestiae facere, ipsam exercitationem amet aspernatur, nemo deserunt illo voluptas tenetur.</p>
+                <br>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Contacts -->
+      <section id="contacts">
+        <div class="container">
+          <div class="row">
+            <div class="col-md-5 col-sm-5">
+              <form>
+                <div class="form-group">
+                  <lab>Name: </lab>
+                  <input type="text" placeholder="Enter Name" class="form-control">
+                </div>
+                <div class="form-group">
+                  <lab>Email: </lab>
+                  <input type="text" placeholder="Enter Email" class="form-control">
+                </div>
+                <div class="form-group">
+                  <lab>Message: </lab>
+                  <textarea type="text" placeholder="Enter Message" class="form-control"></textarea>
+                </div>
+                <button class="btn btn-default">Submit</button>
+              </form>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Footer -->
+      <footer>
+        <p class="text-center">Tech Scroll Copyrights &copy; 2019</p>
+      </footer>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
+  <!-- Animations -->
+  <script>
+    window.sr = ScrollReveal();
+
+    sr.reveal('.navbar', {
+      duration: 2000,
+      origin: 'bottom'
+    });
+
+    sr.reveal('.showcase-left', {
+      duration: 2000,
+      origin: 'top',
+      distance: '300px'
+    });
+
+    sr.reveal('.showcase-right', {
+      duration: 2000,
+      origin: 'right',
+      distance: '300px'
+    });
+
+    sr.reveal('.showcase-btn', {
+      duration: 2000,
+      delay: 2000,
+      origin: 'bottom'
+    });
+
+    sr.reveal('#description div', {
+      duration: 2000,
+      origin: 'bottom'
+    });
+
+    sr.reveal('.info-left', {
+      duration: 2000,
+      origin: 'left',
+      distance: '300px',
+      viewFactor: 0.2
+    });
+
+    sr.reveal('.info-right', {
+      duration: 2000,
+      origin: 'right',
+      distance: '300px',
+      viewFactor: 0.2
+    });
+
+    sr.reveal('#contacts', {
+      duration: 2000,
+      origin: 'bottom'
+    });
+  </script>
+
+  <!-- Scroll -->
+  <script>
+    $(function() {
+      // Smooth Scrolling
+      $('a[href*="#"]:not([href="#"])').click(function() {
+        if (location.pathname.replace(/^\//,'') == this.pathname.replace(/^\//,'') && location.hostname == this.hostname) {
+          var target = $(this.hash);
+          target = target.length ? target : $('[name=' + this.hash.slice(1) +']');
+          if (target.length) {
+            $('html, body').animate({
+              scrollTop: target.offset().top
+            }, 1000);
+            return false;
+          }
+        }
+      });
+    });
+    </script>
+  </body>
+</html>
